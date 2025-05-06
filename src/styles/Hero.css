@@ -1,0 +1,16 @@
+.hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 85px; 
+}
+
+.text-content {
+  max-width: 50%;
+}
+
+.image-content img {
+  max-width: 100%;
+  height: auto;
+  
+}

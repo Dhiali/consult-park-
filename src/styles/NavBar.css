@@ -2,32 +2,48 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #652E98;
+    background-color:#000000;
     padding: 1rem 2rem;
     color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
   }
   
-  .navbar-logo a {
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: white;
-    text-decoration: none;
+  .navbar-logo {
+    margin-left: 50px;
+ /* Added to position logo 50px from the left */
   }
   
   .navbar-links {
     list-style: none;
     display: flex;
-    gap: 1.5rem;
+    gap: 2rem; /* Adjusted spacing for better alignment */
+    margin: 0 auto;
+    padding-right: 90px; /* Center the links */
   }
   
   .navbar-links a {
     text-decoration: none;
     color: white;
     font-weight: 500;
+    padding-right: 15px;
+    transition: color 0.3s ease; /* Added transition for smooth hover effect */
+  
+  }
+  
+  .navbar-links a:hover {
+    color: #0B2E36; /* Change color on hover */
   }
   
   .navbar-links a.active {
-    border-bottom: 2px solid #A9DBD5;
+  color: #49B85F;
+  font-weight: 500;
+  }
+  
+  .logo {
+    height: 60px; /* Increased height */
+    width: auto;
   }
   
   @media (max-width: 768px) {
@@ -36,4 +52,3 @@
       display: none; /* Add toggle functionality if you want a burger menu */
     }
   }
-  
