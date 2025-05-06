@@ -1,19 +1,32 @@
-import './App.css';
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
-import {Route, BrowserRouter as Router, Route, Link} from 'react-router-dom';
+// Page Components
+import Home from './pages/HomePage.jsx';
+import AboutUs from './pages/AboutPage.jsx';
+import ServicesPage from './pages/ServicesPage.jsx';
+import BPO from './pages/BusinessProcessOutsourcingPage.jsx';
+import Contact from './pages/ContactPage.jsx';
 
-import { ServicesPage } from "./pages/ServicesPage";
-import logo from './logo.svg';
+// import Navbar from './components/NavBar.jsx';
+// import Footer from './components/Footer.jsx';
 
-function App() {
+const App = () => {
   return (
     <Router>
-      <nav>
-        <Link to="./pages/HomePage">Home</Link>
-        <Link to="./pages/ServicesPage">Services</Link>
-      </nav>
+      {/* <Navbar /> */}
+
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<AboutUs />} />
+        <Route path="/services" element={<ServicesPage />} />
+        <Route path="/bpo" element={<BPO />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
+
+      {/* <Footer /> */}
     </Router>
   );
-}
+};
 
 export default App;
