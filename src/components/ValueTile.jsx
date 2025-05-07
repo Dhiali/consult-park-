@@ -1,4 +1,4 @@
-import './ValueTile.css';
+import '../styles/ValueTile.css';
 
 import React from 'react';
 

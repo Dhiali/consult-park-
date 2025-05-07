@@ -1,55 +1,79 @@
 .about-us {
-    padding: 3rem 1rem;
-    background-color: #f8f9fa;
-    color: #0b2e36;
-    font-family: 'General Sans', sans-serif;
+    background-color: #0b0b0b;
+    color: #ffffff;
+    padding: 4rem 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
   
-.container {
+.about-us .container {
     max-width: 1200px;
     margin: 0 auto;
 }
   
-h1, h2 {
-    color: #0b2e36;
+.about-us h1 {
+    font-size: 2.5rem;
+    color: #A9DBD5;
+    margin-bottom: 1rem;
+    text-align: left;
 }
   
-.intro {
-    font-size: 1.2rem;
+.about-us .intro {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    color: #dddddd;
+    text-align: left;
+}
+  
+.about-us p {
+    color: #cccccc;
+    line-height: 1.7;
+    font-size: 1rem;
     margin-bottom: 1rem;
 }
   
-.mission-vision h2 {
+.mission-vision h2, .values-section h2 {
+    color: #18B3A5;
+    font-size: 1.8rem;
     margin-top: 2rem;
-    color: #49b85f;
-}
-  
-.values-section {
-    margin-top: 3rem;
+    margin-bottom: 1rem;
+    text-align: left;
 }
   
 .values-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
     gap: 2rem;
-    margin-top: 1.5rem;
+    margin-top: 2rem;
 }
   
 .value-tile {
-    background: #fff;
-    border: 1px solid #ddd;
+    background-color: #1a1a1a;
+    border: 1px solid #333;
+    border-radius: 10px;
     padding: 1.5rem;
     text-align: center;
-    border-radius: 8px;
-    transition: transform 0.3s ease;
+    transition: transform 0.3s ease, border-color 0.3s ease;
 }
   
 .value-tile:hover {
-    transform: translateY(-5px);
+    transform: scale(1.05);
+    border-color: #18B3A5;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
+}
+  
+.value-tile svg {
+    font-size: 2.5rem;
+    color: #18B3A5;
+    margin-bottom: 0.5rem;
 }
   
 .value-tile h3 {
-    margin-top: 1rem;
-    color: #0b2e36;
+    color: #A9DBD5;
+    margin: 0.5rem 0;
+}
+  
+.value-tile p {
+    color: #cccccc;
+    font-size: 0.95rem;
 }
   

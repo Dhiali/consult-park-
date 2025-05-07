@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from './pages/HomePage.jsx';
 import AboutUs from './pages/AboutPage.jsx';
 import ServicesPage from './pages/ServicesPage.jsx';
-import BPO from './pages/BusinessProcessOutsourcingPage.jsx';
+import BPO from './pages/BPOPage.jsx';
 import Contact from './pages/ContactPage.jsx';
 
 import Navbar from './components/NavBar.jsx';

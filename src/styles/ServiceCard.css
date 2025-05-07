@@ -1,0 +1,25 @@
+.service-card {
+    background: #1a1a1a;
+    border: 1px solid #333;
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+  
+.service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
+    border-color: #18B3A5;
+}
+  
+.service-card h3 {
+    color: #18B3A5; /* Accent mint */
+    margin-bottom: 0.5rem;
+}
+  
+.service-card p {
+    color: #cccccc;
+    font-size: 0.95rem;
+}
+  

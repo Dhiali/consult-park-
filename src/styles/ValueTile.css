@@ -1,0 +1,34 @@
+.value-tile {
+    background-color: #1a1a1a;
+    border: 1px solid #333;
+    border-radius: 10px;
+    padding: 1.5rem;
+    text-align: center;
+    color: #ffffff;
+    transition: transform 0.3s ease, border-color 0.3s ease;
+}
+  
+.value-tile:hover {
+    transform: scale(1.05);
+    border-color: #18B3A5; 
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
+}
+  
+.value-tile i {
+    font-size: 2rem;
+    color: #18B3A5;
+    margin-bottom: 0.5rem;
+}
+  
+.value-tile h3 {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+    color: #A9DBD5;
+}
+  
+.value-tile p {
+    font-size: 0.95rem;
+    color: #cccccc;
+    margin-top: 0.25rem;
+}
+  
