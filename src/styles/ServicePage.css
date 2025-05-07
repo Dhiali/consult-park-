@@ -1,0 +1,107 @@
+:root{
+    --dark_green: #000000;
+    --light_green: #49b85f;
+    --gray: #808a8c;
+    --white: #ffffff;
+    --sea_green: #0B2E36;
+  }
+
+
+body{
+    background-color: #0b0b0b;
+    
+}
+
+.servicePage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.cards {
+    display: grid;
+    max-width: 1200px;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Default: Cards adjust to fit the screen */
+    gap: 20px; /* Adds space between the cards */
+    padding: 20px; /* Adds padding inside the container */
+    margin: 0 20px; /* Adds margin between the container and the edges of the screen */
+    box-sizing: border-box; /* Ensures padding and margin are included in the width */
+}
+
+.service-card{
+    /* margin: 10px;
+    height: 300px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10px;
+    height: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.service-card h3 {
+    margin: 0;
+}
+
+.service-card p {
+    margin: 10px 0;
+    flex-grow: 1; /* Ensures the description takes up available space */
+}
+
+.service-card button{
+    margin-top: auto; /* Pushes the button to the bottom */
+    background-color: var(--sea_green);
+    color: white;
+    width: 100%;
+    border: 1px solid var(--gray);
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.54);
+}
+
+.service-card button:hover{
+    background-color: var(--light_green);
+    color: var(--dark_green);
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.54);
+    font-weight: bold;
+
+}
+
+.services-intro{
+    margin-bottom: 20px;
+    color: var(--white);
+}
+
+.services-intro h1{
+    color: var(--light_green);
+}
+
+
+
+::-webkit-scrollbar {
+    display: none; /* Hide scrollbar for Chrome, Safari and Opera */
+}
+
+@media (max-width: 1024px) {
+    .cards {
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Smaller columns for medium screens */
+    }
+}
+
+@media (max-width: 768px) {
+    .cards {
+        grid-template-columns: repeat(2, 1fr); /* Two columns for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .cards {
+        grid-template-columns: 1fr; /* Single column for very small screens */
+    }
+}

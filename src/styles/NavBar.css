@@ -33,7 +33,7 @@
   }
   
   .navbar-links a:hover {
-    color: #0B2E36; /* Change color on hover */
+    color:rgb(199, 199, 199); /* Change color on hover */
   }
   
   .navbar-links a.active {
