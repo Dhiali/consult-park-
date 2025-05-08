@@ -8,7 +8,12 @@
 .bpo-section {
     margin-bottom: 3rem;
 }
-  
+
+.bpo-page h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #49b85f; 
+}
 .bpo-section h2 {
     color: #A9DBD5; 
     margin-bottom: 1rem;

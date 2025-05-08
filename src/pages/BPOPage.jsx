@@ -34,7 +34,7 @@ const BPOPage = () => {
       <h1>Business Process Outsourcing</h1>
 
       <section className="bpo-section">
-        <h2>🚀 BPO Solutions</h2>
+        <h2>BPO Solutions</h2>
         <div className="bpo-grid">
           {bpoSolutions.map((service, idx) => (
             <ServiceCard key={idx} title={service.title} description={service.description} />
@@ -43,7 +43,7 @@ const BPOPage = () => {
       </section>
 
       <section className="bpo-section">
-        <h2>🧠 Business Optimization</h2>
+        <h2>Business Optimization</h2>
         <div className="bpo-grid">
           {businessOptimization.map((service, idx) => (
             <ServiceCard key={idx} title={service.title} description={service.description} />

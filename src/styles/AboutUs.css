@@ -12,7 +12,7 @@
   
 .about-us h1 {
     font-size: 2.5rem;
-    color: #A9DBD5;
+    color: #49b85f;
     margin-bottom: 1rem;
     text-align: left;
 }
@@ -49,7 +49,7 @@
 .value-tile {
     background-color: #1a1a1a;
     border: 1px solid #333;
-    border-radius: 10px;
+    border-radius: 8px;
     padding: 1.5rem;
     text-align: center;
     transition: transform 0.3s ease, border-color 0.3s ease;
@@ -63,7 +63,7 @@
   
 .value-tile svg {
     font-size: 2.5rem;
-    color: #18B3A5;
+    color: #49b85f;
     margin-bottom: 0.5rem;
 }
   
