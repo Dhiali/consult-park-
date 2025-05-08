@@ -29,6 +29,12 @@ This project showcases Consult Park’s brand, services, and value proposition t
 
 ## 🧪 Getting Started
 
+### Group Members
+
+**Angie van Rooyen**
+**Dhiali Chetty**
+**Xander Poalses**
+
 ### 📦 Install dependencies
 
 ```bash
