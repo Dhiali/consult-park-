@@ -14,3 +14,19 @@
   height: auto;
   
 }
+
+.contact-button {
+  display: inline-block;
+  background-color: #49B85F; /* Button color */
+  color: white;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 5px; /* Rounded borders */
+  text-decoration: none;
+  transition: transform 0.3s ease, background-color 0.3s ease; /* Animation */
+}
+
+.contact-button:hover {
+  transform: scale(1.1); /* Slightly enlarge on hover */
+  background-color: #3a944d; /* Darker shade on hover */
+}

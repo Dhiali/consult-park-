@@ -2,14 +2,53 @@
 .card {
     background-color: #111;
     padding: 1.5rem;
-    border-radius: 12px;
+    border-radius: 8px;
     color: #fff;
-    box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
     text-align: center;
-    transition: transform 0.3s ease;
+    transition: transform 0.3s ease, opacity 0.3s ease; /* Add transition for smooth effect */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px; /* Fixed height */
+    width: 100%; /* Adjust width to fit column */
+    flex: 0 0 auto; /* Prevent cards from shrinking */
+    scroll-snap-align: center; /* Center each card in the viewport horizontally */
+    opacity: 1; /* Remove dimming effect */
+    transform: none; /* Remove scaling effect */
+    margin: 0 auto; /* Center each card within the container */
   }
   
   .card:hover {
     transform: translateY(-5px);
   }
   
+  .card h4 {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .feature-scroll-container {
+    display: grid; /* Use grid layout */
+    grid-template-columns: repeat(2, 1fr); /* 2 columns */
+    grid-auto-rows: auto; /* Automatically adjust row height */
+    gap: 1rem; /* Space between cards */
+    padding: 2rem;
+    justify-content: center; /* Center the grid horizontally */
+    align-items: start; /* Align cards to the top of each column */
+    height: auto; /* Adjust height to fit content */
+    width: 100%; /* Ensure container spans the full width */
+    margin: 0 auto; /* Center the container on the page */
+    scroll-snap-type: x mandatory; /* Smooth snapping for horizontal scrolling */
+  }
+  
+  .feature-scroll-container::-webkit-scrollbar {
+    display: none; /* Hide scrollbar for a cleaner look */
+  }
+
+  .card:nth-child(1):target,
+.card:nth-child(2):target,
+.card:nth-child(3):target {
+    opacity: 1; /* Highlight the centered card */
+    transform: scale(1.1); /* Slightly enlarge the centered card */
+}

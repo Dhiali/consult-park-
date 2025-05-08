@@ -1,14 +1,14 @@
 :root{
     --dark_green: #000000;
     --light_green: #49b85f;
-    --gray: #808a8c;
+    --gray: #000000;
     --white: #ffffff;
     --sea_green: #0B2E36;
   }
 
 
 body{
-    background-color: #0b0b0b;
+    background-color: #000000;
     
 }
 

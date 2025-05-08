@@ -20,14 +20,24 @@ const Home = () => {
       title: 'Protected by transparency.',
       description: 'Trackable metrics, no rigid contracts.',
     },
+    { title: 'Reduce Costs' },
+    { title: 'Increase Efficiency' },
+    { title: 'No Rigid Contracts' },
+    { title: 'Fluent Communication' },
+    { title: 'Certified Talent' },
+    { title: 'Office-Based Professionals' },
+    { title: 'Dedicated Workforce' },
+    { title: 'Performance-Driven Approach' },
   ];
 
   return (
     <main className="bg-black text-white">
       <HeroSection /> {/* Ensure HeroSection is rendered here */}
-      <section className="grid md:grid-cols-3 gap-6 px-6 md:px-16 py-12">
-        {features.map((f, i) => (
-          <FeatureCard key={i} {...f} />
+      <section className="feature-scroll-container">
+        {features.map((feature, index) => (
+          <div id={`card-${index}`} key={index}>
+            <FeatureCard title={feature.title} />
+          </div>
         ))}
       </section>
     </main>

@@ -9,7 +9,7 @@ import BPO from './pages/BPOPage.jsx';
 import Contact from './pages/ContactPage.jsx';
 
 import Navbar from './components/NavBar.jsx';
-// import Footer from './components/Footer.jsx';
+import Footer from './components/Footer.jsx'; // Import Footer
 
 const App = () => {
   return (
@@ -24,7 +24,7 @@ const App = () => {
         <Route path="/contact" element={<Contact />} />
       </Routes>
 
-      {/* <Footer /> */}
+      <Footer /> {/* Add Footer */}
     </Router>
   );
 };
