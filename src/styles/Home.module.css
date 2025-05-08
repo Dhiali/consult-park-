@@ -1,0 +1,19 @@
+.about-section {
+  background-color: #111; 
+  color: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  margin: 2rem auto;
+  max-width: 800px; 
+  text-align: center;
+}
+
+.about-section h2 {
+  color: #49B85F; 
+}
+
+.about-section p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #ccc; 
+}
