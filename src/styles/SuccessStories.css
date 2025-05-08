@@ -1,0 +1,87 @@
+.success-stories-section {
+  background-color: #000000;
+  color: #000000;
+  padding: 4rem 2rem;
+  border-radius: 8px;
+  margin: 2rem auto;
+  max-width: 800px;
+  text-align: center;
+}
+
+.success-stories-header {
+  margin-bottom: 2rem;
+}
+
+
+
+.success-stories-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.success-stories-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  margin-bottom: 2rem; /* Add spacing below the cards */
+}
+
+.testimonial-card {
+  background-color: #bcbcbc;
+  border-radius: 1rem;
+  padding: 2rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.testimonial-quote {
+  font-size: 1rem;
+  color: #000000;
+  margin-bottom: 1.5rem;
+}
+
+.quote-icon {
+  font-size: 2rem;
+  color: #000000;
+  margin-right: 0.5rem;
+}
+
+.testimonial-profile {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.profile-avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.profile-info {
+  text-align: left;
+}
+
+.profile-name {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #111;
+}
+
+.profile-title {
+  font-size: 0.9rem;
+  color: #000000;
+}
+
+.text-center {
+  margin-top: 2rem; /* Ensure additional spacing above the button */
+}
+
+@media (max-width: 768px) {
+  .success-stories-cards {
+    grid-template-columns: 1fr;
+  }
+}

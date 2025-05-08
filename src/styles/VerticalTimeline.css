@@ -1,0 +1,117 @@
+.vertical-timeline {
+  background-color: #0a0a0a;
+  border-radius: 1rem;
+  padding: 2rem;
+  max-width: 900px;
+  margin: 2rem auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  animation: fadeIn 1s ease-in-out;
+}
+
+.timeline-header {
+  text-align: left;
+  margin-bottom: 2rem;
+}
+
+.timeline-label {
+  font-size: 0.9rem;
+  color: #49B85F;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.timeline-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 0.5rem;
+}
+
+.timeline-subtitle {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #ccc;
+}
+
+.timeline-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.timeline-point {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  align-items: center;
+  gap: 1rem;
+}
+
+.timeline-rank {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.timeline-description {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #ccc;
+}
+
+.timeline-divider {
+  border: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  margin: 1rem 0;
+}
+
+.timeline-icon {
+  font-size: 1.5rem;
+  color: #49B85F; /* Green color for the icons */
+}
+
+.timeline-button .btn {
+  font-size: 1rem;
+  font-weight: bold;
+  text-decoration: none;
+  display: inline-block;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.timeline-button .btn:hover {
+  transform: scale(1.05);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 768px) {
+  .vertical-timeline {
+    padding: 1.5rem;
+  }
+
+  .timeline-title {
+    font-size: 1.5rem;
+  }
+
+  .timeline-subtitle {
+    font-size: 0.9rem;
+  }
+
+  .timeline-rank {
+    font-size: 1.2rem;
+  }
+
+  .timeline-description {
+    font-size: 0.9rem;
+  }
+}

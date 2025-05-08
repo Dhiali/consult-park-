@@ -1,0 +1,45 @@
+.timeline-section {
+  background-color: #111;
+  color: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  margin: 2rem auto;
+  max-width: 800px;
+  text-align: center;
+}
+
+.timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.timeline-step {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.step-number {
+  font-size: 2rem;
+  color: #49B85F;
+  font-weight: bold;
+}
+
+.step-description {
+  font-size: 1rem;
+  color: #ccc;
+  text-align: left;
+}
+
+.btn {
+  font-size: 1rem;
+  font-weight: bold;
+  text-decoration: none;
+  display: inline-block;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}

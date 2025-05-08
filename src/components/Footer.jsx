@@ -9,7 +9,7 @@ const Footer = () => {
         <img src={logo} alt="Company Logo" />
       </div>
       <div className="footer-text">
-        <p>© 2023 Consult Park. All rights reserved.</p>
+        <p>© 2025 Consult Park. All rights reserved.</p>
         <p>Empowering businesses with world-class talent.</p>
       </div>
     </footer>
