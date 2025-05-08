@@ -1,0 +1,38 @@
+.input-field {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.input-field label {
+  font-size: 1rem;
+  color: var(--white);
+}
+
+.input-field input,
+.input-field textarea {
+  padding: 10px;
+  border: 1px solid var(--gray);
+  border-radius: 5px;
+  background-color: var(--white);
+  color: var(--dark_green);
+  font-size: 1rem;
+}
+
+.input-field input:focus,
+.input-field textarea:focus {
+  outline: none;
+  border-color: var(--light_green);
+  box-shadow: 0 0 5px var(--light_green);
+}
+
+.input-field input.error,
+.input-field textarea.error {
+  border: 2px solid red; /* Red border for error state */
+}
+
+.error-message {
+  margin-top: 15px;
+  color: red;
+  font-weight: bold;
+}
