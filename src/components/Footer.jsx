@@ -1,6 +1,6 @@
 import React from 'react';
-import logo from '../assets/Consult-Park-Logo-Full.png'; // Import the logo
-import '../styles/Footer.css'; // Import footer styles
+import logo from '../assets/Consult-Park-Logo-Full.png'; 
+import '../styles/Footer.css'; 
 
 const Footer = () => {
   return (

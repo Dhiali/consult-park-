@@ -9,7 +9,7 @@ import BPO from './pages/BPOPage.jsx';
 import Contact from './pages/ContactPage.jsx';
 
 import Navbar from './components/NavBar.jsx';
-import Footer from './components/Footer.jsx'; // Import Footer
+import Footer from './components/Footer.jsx'; 
 
 const App = () => {
   return (

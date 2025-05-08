@@ -17,16 +17,16 @@
 
 .contact-button {
   display: inline-block;
-  background-color: #49B85F; /* Button color */
+  background-color: #49B85F; 
   color: white;
   font-weight: bold;
   padding: 10px 20px;
-  border-radius: 5px; /* Rounded borders */
+  border-radius: 5px;
   text-decoration: none;
-  transition: transform 0.3s ease, background-color 0.3s ease; /* Animation */
+  transition: transform 0.3s ease, background-color 0.3s ease; 
 }
 
 .contact-button:hover {
-  transform: scale(1.1); /* Slightly enlarge on hover */
-  background-color: #3a944d; /* Darker shade on hover */
+  transform: scale(1.1);
+  background-color: #3a944d; 
 }

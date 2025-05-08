@@ -1,4 +1,3 @@
-// src/components/FeatureCard.jsx
 import React from 'react';
 import styles from '../styles/FeatureCard.module.css';
 

@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: 'General Sans', sans-serif; /* Updated font */
+  font-family: 'General Sans', sans-serif; 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

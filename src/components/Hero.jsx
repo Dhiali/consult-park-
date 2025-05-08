@@ -1,6 +1,6 @@
 import React from 'react';
-import heroImage from '../assets/heroimage.png'; // Import the hero image
-import '../styles/Hero.css'; // Import the Hero styles
+import heroImage from '../assets/heroimage.png'; 
+import '../styles/Hero.css'; 
 
 function HeroSection() {
   return (
@@ -24,7 +24,7 @@ function HeroSection() {
         </a>
         <a
           href="/contact"
-          className="mt-4 contact-button" // Updated class for Contact Us button
+          className="mt-4 contact-button"
         >
           Contact Us
         </a>

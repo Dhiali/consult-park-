@@ -28,7 +28,7 @@
 
 .input-field input.error,
 .input-field textarea.error {
-  border: 2px solid red; /* Red border for error state */
+  border: 2px solid red; 
 }
 
 .error-message {

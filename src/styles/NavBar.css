@@ -28,12 +28,12 @@
     color: white;
     font-weight: 500;
     padding-right: 15px;
-    transition: color 0.3s ease; /* Added transition for smooth hover effect */
+    transition: color 0.3s ease;
   
   }
   
   .navbar-links a:hover {
-    color:rgb(199, 199, 199); /* Change color on hover */
+    color:rgb(199, 199, 199); 
   }
   
   .navbar-links a.active {
@@ -42,13 +42,13 @@
   }
   
   .logo {
-    height: 60px; /* Increased height */
+    height: 60px;
     width: auto;
   }
   
   @media (max-width: 768px) {
     .navbar-links {
       flex-direction: column;
-      display: none; /* Add toggle functionality if you want a burger menu */
+      display: none; 
     }
   }
