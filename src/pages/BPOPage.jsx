@@ -1,6 +1,7 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import ServiceCard from '../components/ServiceCard.jsx';
-import '../styles/BPOPage.css'; 
+import '../styles/BPOPage.css';
 
 const bpoSolutions = [
   {
@@ -13,18 +14,26 @@ const bpoSolutions = [
   },
   {
     title: 'Technical Support',
-    description: 'Expert IT support for troubleshooting, system maintenance, and software assistance.'
+    description: 'Expert IT support for troubleshooting, system maintenance, and software assistance.',
+  },
+  {
+    title: 'HR & Payroll Management',
+    description: 'End-to-end HR functions, from onboarding to payroll and benefits administration.',
   },
 ];
 
 const businessOptimization = [
   {
-    title: 'HR & Payroll Management',
-    description: 'End-to-end HR functions, from onboarding to payroll and benefits administration.',
-  },
-  {
     title: 'Workflow Automation & Efficiency Audits',
     description: 'Analyze and automate repetitive processes to boost performance and reduce human error.',
+  },
+  {
+    title: 'Remote Workforce Strategy',
+    description: 'Build, scale, and manage high-performing remote teams with expert guidance.',
+  },
+  {
+    title: 'Custom Business Solutions',
+    description: 'Tailored outsourcing strategies designed to fit your unique business needs.',
   },
 ];
 
@@ -32,6 +41,7 @@ const BPOPage = () => {
   return (
     <div className="bpo-page">
       <h1>Business Process Outsourcing</h1>
+      <p>Outsource non-core business functions and focus on growth.</p>
 
       <section className="bpo-section">
         <h2>BPO Solutions</h2>
@@ -50,6 +60,12 @@ const BPOPage = () => {
           ))}
         </div>
       </section>
+
+      {/* CTA Section */}
+      <div className="bpo-cta">
+        <h2>📩 Get a Free Consultation</h2>
+        <Link to="/contact" className="cta-button">Contact Us</Link>
+      </div>
     </div>
   );
 };

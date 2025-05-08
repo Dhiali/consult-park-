@@ -6,23 +6,27 @@ const AboutUs = () => {
   return (
     <section className="about-us">
      <div className="container">
-       <h1>About Consult Park</h1>
+       <h1>Who We Are</h1>
        <p className="intro">
-          At Consult Park, we’re not just matching resumes to roles, we’re bridging global opportunity gaps. As a next-gen human capital solutions provider, our mission is to empower service-based businesses with skilled, reliable, and remote-ready talent that can scale with their ambitions.
-       </p>
-       <p>
-          Our goal is simple yet ambitious, to become the gold standard in remote staffing and business process optimization. We aim to connect high-impact businesses with top-tier talent that delivers measurable outcomes. By removing barriers like location, overhead, and rigid contracts, we help organizations scale smarter, move faster, and operate leaner.
+        Consult Park is more than just an outsourcing company—we’re your growth partner. Our
+        mission is to bridge businesses with skilled professionals, helping them scale faster, work
+        smarter, and achieve more.
+        With a network of highly trained professionals, cutting-edge tools, and a client-first approach,
+        we deliver solutions that enhance productivity, efficiency, and profitability.
        </p>
 
        <div className="mission-vision">
-         <h2>Our Mission</h2>
+         <h2>Our Mission & Vision</h2>
          <p>
-            Our mission is to deliver world-class outsourcing solutions by bridging businesses with certified, performance-driven remote professionals. We’re committed to elevating global teams through strategic placements, continuous support, and a culture of excellence. Every client relationship is built on trust, results, and the shared goal of sustainable growth.
-         </p>
-
-         <h2>Our Vision</h2>
-         <p>
-            We envision a world where borders don't limit talent, where every company can access the skills they need, and every professional has the opportunity to thrive. Our vision is to lead this global shift by building a future-ready workforce that powers innovation, drives performance, and creates long-term impact for both businesses and communities.
+         Our mission is simple: <b>Empower businesses with seamless outsourcing solutions that
+        drive success.</b>
+        We envision a world where businesses of all sizes can access high-quality, cost-effective talent
+        without the constraints of location or infrastructure. <br/>
+        <b>Mission:</b> Empower businesses globally by connecting them with skilled virtual teams, driving
+        efficiency, collaboration, and growth, while creating impactful career opportunities for
+        professionals. <br/>
+        <b>Vision:</b> To become the premier outsourcing partner, transforming global workforce solutions and
+        fostering sustainable growth and innovation for businesses and communities worldwide.
          </p>
        </div>
 
@@ -32,22 +36,38 @@ const AboutUs = () => {
            <div className="value-tile">
              <FaLightbulb size={40} />
              <h3>Excellence</h3>
-             <p>We deliver nothing less than high-quality talent and exceptional service.</p>
+             <p>We uphold the highest standards in everything we do.
+             <br/>
+             <br/>
+             Committed to delivering high-quality outsourcing solutions and ensuring client satisfaction.
+             </p>
            </div>
            <div className="value-tile">
              <FaHandshake size={40} />
              <h3>Integrity</h3>
-             <p>We build trust through transparency, professionalism, and ethical practices.</p>
+             <p>Transparency and trust are at the core of our partnerships.
+              <br/>
+              <br/>
+              Operating with transparency, honesty, and ethical standards in every interaction.
+             </p>
            </div>
            <div className="value-tile">
              <FaRocket size={40} />
             <h3>Innovation</h3>
-             <p>We continuously evolve and improve how we serve and support our clients.</p>
+             <p>We embrace technology and smart solutions to improve efficiency.
+             <br/>
+             <br/>
+             Embracing forward-thinking strategies to provide creative and effective solutions.
+             </p>
             </div>
             <div className="value-tile">
              <FaGlobe size={40} />
              <h3>Global Reach</h3>
-             <p>We tap into a diverse, international talent pool for remote excellence.</p>
+             <p>We connect businesses with top-tier professionals worldwide.
+             <br/>
+             <br/>
+             Contributing to economic development through career opportunities and international collaboration.
+             </p>
            </div>
          </div>
        </div>
